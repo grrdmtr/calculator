@@ -7,30 +7,40 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1>Calculator</h1>
-        </header>
-            <div class="display">Do your math</div>
-            <div class="digits">
-                <button id="btn" value="1" class="digit">1</button>
-                <button id="btn" value="2" class="digit">2</button>
-                <button id="btn" value="3" class="digit">3</button>
-                <button id="btn" value="4" class="digit">4</button>
-                <button id="btn" value="5" class="digit">5</button>
-                <button id="btn" value="6" class="digit">6</button>
-                <button id="btn" value="7" class="digit">7</button>
-                <button id="btn" value="8" class="digit">8</button>
-                <button id="btn" value="9" class="digit">9</button>
-                <button id="btn" value="0" class="digit">0</button>
+        <div class="calc">
+            <div class="elements">
+                <div class="display">0</div>
+                <div class="row">
+                    <button id="clear" value="CLEAR" class="clear">AC</button>
+                    <button id="operator" value="-" class="operand">+/-</button>
+                    <button id="operator" value="%" class="percent">%</button>
+                    <button id="operator" value="/" class="divide">/</button>
+                </div>
+                <div class="row">
+                    <button id="btn" value="7" class="digit">7</button>
+                    <button id="btn" value="8" class="digit">8</button>
+                    <button id="btn" value="9" class="digit">9</button>
+                    <button id="operator" value="*" class="multiply">*</button>
+                </div>
+                <div class="row">
+                    <button id="btn" value="4" class="digit">4</button>
+                    <button id="btn" value="5" class="digit">5</button>
+                    <button id="btn" value="6" class="digit">6</button>
+                    <button id="operator" value="-" class="substract">-</button>
+                </div>
+                <div class="row">
+                    <button id="btn" value="1" class="digit">1</button>
+                    <button id="btn" value="2" class="digit">2</button>
+                    <button id="btn" value="3" class="digit">3</button>
+                    <button id="operator" value="+" class="add">+</button>
+                </div>
+                <div class="row">
+                    <button id="btn" value="0" class="digit">0</button>
+                    <button id="dot" value="." class="digit">.</button>
+                    <button id="result" value="=" class="equal">=</button>
+                </div>
             </div>
-            <div class="operators">
-                <button id="operator" value="+" class="add">+</button>
-                <button id="operator" value="-" class="substract">-</button>
-                <button id="operator" value="/" class="divide">/</button>
-                <button id="operator" value="*" class="multiply">*</button>
-                <button id="result" value="=" class="equal">=</button>
-                <button id="clear" value="CLEAR" class="clear">CLEAR</button>
-            </div>
+        </div>
         
     </body>
 </html>
